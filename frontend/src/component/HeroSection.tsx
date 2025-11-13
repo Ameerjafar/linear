@@ -13,7 +13,7 @@ export const HeroSection = () => {
         <div>Meet the system for modern software development.</div>
         <div>Streamline issues, projects, and product roadmaps.</div>
       </div>
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 pb-6">
         <button className="px-4 text-black bg-white/95 hover:bg-white rounded-md font-medium p-2 ">
           Start Building
         </button>
@@ -21,6 +21,7 @@ export const HeroSection = () => {
           New: Linear agent for Slack
         </button>
       </div>
+      {/* <div className = 'border-b border-b-gray-400 '></div> */}
     </div>
   );
 };
