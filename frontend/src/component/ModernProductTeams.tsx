@@ -1,4 +1,4 @@
-import { productTeamData } from "./data/ModernCardData";
+import { productTeamData } from "./data/modernCardData";
 import { ModernProductCard } from "./ui/ModernProductCard";
 export const ModernProductTeams = () => {
   return (
